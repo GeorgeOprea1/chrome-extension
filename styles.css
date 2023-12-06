@@ -37,6 +37,20 @@ a {
   color: #5f9341;
 }
 
+button {
+  cursor: pointer;
+}
+
+button:hover {
+  filter: brightness(50%);
+}
+
+button:active {
+  background-color: #3e8e41;
+  box-shadow: 0 5px #666;
+  transform: translateY(4px);
+}
+
 #delete-btn {
   color: #5f9341;
   background-color: white;
